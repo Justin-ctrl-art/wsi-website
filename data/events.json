@@ -17,7 +17,6 @@
       "venue_zip": "90803",
       "venue_phone": "(562) 293-3106",
       "venue_url": "https://www.angelssharelb.com/",
-      "image": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=2000&q=80",
       "description_intro": "Our second annual installation of \"Whiskey Makes the Story Easier,\" our spring dinner event, will provide fun, great food, drawings for bottles of whiskey, and education about our mission at the wonderful Angel's Share Whiskey Lounge in Long Beach, CA.",
       "description_body": "Last year was all about the children in Ukraine. While we will update attendees about our activities with kids overseas, this year is all about U.S. military war survivors.",
       "rsvp_url": "https://warsurvivors.org/event/whiskey-makes-the-story-easier/",
@@ -35,7 +34,6 @@
       "category": "Veteran Retreat",
       "date": "2024-11-01",
       "venue_name": "Long Beach, CA",
-      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1200&q=80",
       "description_intro": "A multi-day retreat offering trauma-informed workshops, outdoor practice, mindfulness, and peer support for U.S. veteran survivors — led by experienced facilitators and therapists.",
       "rsvp_url": "https://warsurvivors.org/event/transformational-healing-retreat-for-veteran-survivors-v2-0-long-beach-ca/",
       "rsvp_label": "Read recap"
@@ -47,7 +45,6 @@
       "category": "Civilian Retreat",
       "date": "2024-06-01",
       "venue_name": "Colorado Springs, CO",
-      "image": "https://images.unsplash.com/photo-1506260408121-e353d10b87c7?w=1200&q=80",
       "description_intro": "A weekend gathering for civilian survivors of conflict — focused on embodied healing, shared community, and the quiet work of reconnection.",
       "rsvp_url": "contact.html",
       "rsvp_label": "Learn more"
@@ -59,10 +56,15 @@
       "category": "Veteran Day Event",
       "date": "2019-11-16",
       "venue_name": "Long Beach, CA",
-      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&q=80",
       "description_intro": "A free one-day event for veterans on the effects of war on heart health — and paths toward healing through movement, nutrition, and mindfulness.",
       "rsvp_url": "contact.html",
       "rsvp_label": "Learn more"
+    },
+    {
+      "title": "test",
+      "slug": "test",
+      "status": "upcoming",
+      "date": "2026-04-28"
     }
   ]
 }
