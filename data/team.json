@@ -1,0 +1,17 @@
+{
+  "team": [
+    {
+      "name": "Michael Hollifield, M.D.",
+      "role": "Founder, President & CEO",
+      "bio": "Psychiatrist, physician, and researcher. Lead developer of the RHS-15 refugee mental health screener.",
+      "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80",
+      "type": "founder"
+    }
+  ],
+  "board": [
+    { "name": "Chair Name", "role": "Board Chair", "affiliation": "" },
+    { "name": "Vice Chair Name", "role": "Vice Chair", "affiliation": "" },
+    { "name": "Treasurer Name", "role": "Treasurer", "affiliation": "" },
+    { "name": "Secretary Name", "role": "Secretary", "affiliation": "" }
+  ]
+}

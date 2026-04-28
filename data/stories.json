@@ -1,0 +1,34 @@
+{
+  "stories": [
+    {
+      "slug": "marcus-veteran-combat-trauma",
+      "category": "Veteran · Combat Trauma",
+      "headline": "I stopped bracing for the sound that never came.",
+      "excerpt": "After three deployments, Marcus found his way back to sleep — and to his daughter — through eighteen months of integrated care.",
+      "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=900&q=80",
+      "author": "Marcus",
+      "featured": true,
+      "url": "stories.html"
+    },
+    {
+      "slug": "amira-refugee-family-care",
+      "category": "Refugee · Family Care",
+      "headline": "My daughter is the first in our family to feel safe.",
+      "excerpt": "Amira and her family rebuilt a quiet life in a new country — with clinical support, peer community, and time.",
+      "image": "https://images.unsplash.com/photo-1518085250887-2f903c200fee?w=900&q=80",
+      "author": "Amira",
+      "featured": true,
+      "url": "stories.html"
+    },
+    {
+      "slug": "lena-clinician-fellowship",
+      "category": "Clinician · Fellowship",
+      "headline": "I came for technique. I left with a framework for care.",
+      "excerpt": "Dr. Lena Park on what she carried home from our clinician fellowship — and how it changed her practice.",
+      "image": "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?w=900&q=80",
+      "author": "Dr. Lena Park",
+      "featured": true,
+      "url": "stories.html"
+    }
+  ]
+}

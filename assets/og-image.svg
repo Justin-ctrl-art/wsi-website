@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="War Survivors Institute — Healing war survivors. Transforming our world.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f4736"/>
+      <stop offset="55%" stop-color="#1a3d2e"/>
+      <stop offset="100%" stop-color="#133127"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.18" r="0.55">
+      <stop offset="0%" stop-color="#c9a961" stop-opacity="0.28"/>
+      <stop offset="70%" stop-color="#c9a961" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.15" cy="0.9" r="0.45">
+      <stop offset="0%" stop-color="#c9a961" stop-opacity="0.18"/>
+      <stop offset="70%" stop-color="#c9a961" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <!-- corner brackets -->
+  <g stroke="#c9a961" stroke-width="1.2" fill="none" opacity="0.55">
+    <path d="M 62 102 V 62 H 112"/>
+    <path d="M 1138 528 V 568 H 1088"/>
+  </g>
+
+  <!-- olive-branch / leaf mark (centered, gold) -->
+  <g transform="translate(600 128)" fill="none" stroke="#c9a961" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 0 56 C 0 32 16 14 36 6 C 24 0 10 -10 4 -26 C -2 -10 -16 0 -28 6 C -8 14 0 32 0 56 Z"/>
+    <line x1="0" y1="56" x2="0" y2="-20"/>
+  </g>
+
+  <!-- hairline rule under mark -->
+  <line x1="540" y1="220" x2="660" y2="220" stroke="#c9a961" stroke-width="1" opacity="0.55"/>
+
+  <!-- eyebrow -->
+  <text x="600" y="256" text-anchor="middle"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+        font-size="17" font-weight="600"
+        fill="#c9a961" letter-spacing="6">
+    WAR SURVIVORS INSTITUTE
+  </text>
+
+  <!-- primary headline -->
+  <text x="600" y="355" text-anchor="middle"
+        font-family="'Playfair Display', 'Times New Roman', Georgia, serif"
+        font-size="74" font-weight="600"
+        fill="#faf7f2" letter-spacing="-1">
+    Healing war survivors.
+  </text>
+
+  <!-- secondary italic -->
+  <text x="600" y="442" text-anchor="middle"
+        font-family="'Playfair Display', 'Times New Roman', Georgia, serif"
+        font-size="64" font-weight="400" font-style="italic"
+        fill="#c9a961" letter-spacing="-0.5">
+    Transforming our world.
+  </text>
+
+  <!-- supporting line -->
+  <text x="600" y="508" text-anchor="middle"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+        font-size="20" font-weight="400"
+        fill="#faf7f2" fill-opacity="0.75">
+    Evidence-based trauma care for veterans, civilians &amp; refugees.
+  </text>
+
+  <!-- footer rule + tagline -->
+  <line x1="520" y1="554" x2="680" y2="554" stroke="#c9a961" stroke-width="1" opacity="0.45"/>
+  <text x="600" y="584" text-anchor="middle"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+        font-size="13" font-weight="600"
+        fill="#faf7f2" fill-opacity="0.65" letter-spacing="5">
+    EST. 2004 · CANDID GOLD SEAL 2024
+  </text>
+
+  <!-- subtle dot ornaments -->
+  <circle cx="140" cy="315" r="2" fill="#c9a961" opacity="0.45"/>
+  <circle cx="1060" cy="315" r="2" fill="#c9a961" opacity="0.45"/>
+</svg>

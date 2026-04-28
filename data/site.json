@@ -1,0 +1,41 @@
+{
+  "announcement": {
+    "enabled": true,
+    "text_long": "Our 2025 Annual Report is here.",
+    "text_short": "Annual Report 2025",
+    "link_label": "Read it →",
+    "link_url": "https://warsurvivors.org/annual-report/"
+  },
+  "hero": {
+    "eyebrow": "Est. 2004 · Santa Fe, NM",
+    "headline_line1": "Healing war survivors.",
+    "headline_line2_italic": "Transforming our world.",
+    "subhead": "For veterans, civilians, and refugees who have lived through war, we offer evidence-based trauma care, belonging, and a path forward — built on two decades of clinical research and human dignity.",
+    "primary_cta_label": "Our Work",
+    "primary_cta_url": "programs.html",
+    "secondary_cta_label": "Support Survivors",
+    "secondary_cta_url": "https://givebutter.com/investinWSI"
+  },
+  "mission": {
+    "eyebrow": "Our Mission",
+    "statement": "War leaves wounds the eye cannot see. We exist to heal them — with rigor, reverence, and the long patience that recovery requires.",
+    "supporting": "The War Survivors Institute is an independent nonprofit dedicated to the treatment of trauma caused by armed conflict. Drawing on more than twenty years of clinical practice and peer-reviewed research, we serve those most often overlooked — and train the clinicians, communities, and institutions around them."
+  },
+  "stats": [
+    { "number": "2,400+", "label": "Survivors served", "description": "Across clinical, community, and telehealth programs since 2004." },
+    { "number": "15", "label": "Countries reached", "description": "Partnerships spanning North America, Europe, the Middle East, and East Africa." },
+    { "number": "200+", "label": "Clinicians trained", "description": "In trauma-informed, evidence-based care through our professional fellowship." },
+    { "number": "Gold", "label": "Candid Seal, 2024", "description": "Independent recognition for transparency, financial health, and mission impact." }
+  ],
+  "donate_url": "https://givebutter.com/investinWSI",
+  "contact": {
+    "email_general": "info@warsurvivors.org",
+    "email_programs": "programs@warsurvivors.org",
+    "phone": "+1 (505) 555-0142",
+    "mailing_address_line1": "5150 E. Pacific Coast Highway, 2nd Floor",
+    "mailing_address_line2": "PMB #7334",
+    "mailing_city": "Long Beach",
+    "mailing_state": "CA",
+    "mailing_zip": "90804"
+  }
+}

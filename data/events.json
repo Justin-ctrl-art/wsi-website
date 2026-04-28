@@ -1,0 +1,68 @@
+{
+  "events": [
+    {
+      "title": "Whiskey Makes the Story Easier",
+      "title_italic_part": "the Story Easier.",
+      "slug": "whiskey-makes-the-story-easier",
+      "status": "upcoming",
+      "category": "Annual Spring Benefit",
+      "date": "2026-05-07",
+      "time_start": "5:30 PM",
+      "time_end": "7:30 PM",
+      "timezone": "PT",
+      "venue_name": "Angel's Share Whiskey Lounge",
+      "venue_address_line1": "5110 2nd Street",
+      "venue_city": "Long Beach",
+      "venue_state": "CA",
+      "venue_zip": "90803",
+      "venue_phone": "(562) 293-3106",
+      "venue_url": "https://www.angelssharelb.com/",
+      "image": "https://images.unsplash.com/photo-1569529465841-dfecdab7503b?w=2000&q=80",
+      "description_intro": "Our second annual installation of \"Whiskey Makes the Story Easier,\" our spring dinner event, will provide fun, great food, drawings for bottles of whiskey, and education about our mission at the wonderful Angel's Share Whiskey Lounge in Long Beach, CA.",
+      "description_body": "Last year was all about the children in Ukraine. While we will update attendees about our activities with kids overseas, this year is all about U.S. military war survivors.",
+      "rsvp_url": "https://warsurvivors.org/event/whiskey-makes-the-story-easier/",
+      "rsvp_label": "Full Event Page",
+      "cost": "By contribution",
+      "google_calendar_url": "https://www.google.com/calendar/event?action=TEMPLATE&dates=20260507T173000/20260507T193000&text=Whiskey%20Makes%20the%20Story%20Easier&details=Annual%20spring%20benefit%20for%20the%20War%20Survivors%20Institute%20at%20Angel%27s%20Share%20Whiskey%20Lounge%2C%20Long%20Beach%2C%20CA.&location=Angel%27s%20Share%20Whiskey%20Lounge%2C%205110%202nd%20Street%2C%20Long%20Beach%2C%20CA%2C%2090803&ctz=America/Los_Angeles",
+      "ical_url": "webcal://warsurvivors.org/event/whiskey-makes-the-story-easier/?ical=1",
+      "outlook365_url": "https://outlook.office.com/owa/?path=/calendar/action/compose&rrv=addevent&startdt=2026-05-07T17:30:00-07:00&enddt=2026-05-07T19:30:00-07:00&subject=Whiskey%20Makes%20the%20Story%20Easier&location=Angel%27s%20Share%20Whiskey%20Lounge%2C%20Long%20Beach%2C%20CA",
+      "outlook_live_url": "https://outlook.live.com/owa/?path=/calendar/action/compose&rrv=addevent&startdt=2026-05-07T17:30:00-07:00&enddt=2026-05-07T19:30:00-07:00&subject=Whiskey%20Makes%20the%20Story%20Easier&location=Angel%27s%20Share%20Whiskey%20Lounge%2C%20Long%20Beach%2C%20CA"
+    },
+    {
+      "title": "Transformational Healing Retreat for Veteran Survivors V2.0",
+      "slug": "transformational-healing-retreat-veterans-v2",
+      "status": "past",
+      "category": "Veteran Retreat",
+      "date": "2024-11-01",
+      "venue_name": "Long Beach, CA",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1200&q=80",
+      "description_intro": "A multi-day retreat offering trauma-informed workshops, outdoor practice, mindfulness, and peer support for U.S. veteran survivors — led by experienced facilitators and therapists.",
+      "rsvp_url": "https://warsurvivors.org/event/transformational-healing-retreat-for-veteran-survivors-v2-0-long-beach-ca/",
+      "rsvp_label": "Read recap"
+    },
+    {
+      "title": "Transformational Healing Event for Civilian Survivors",
+      "slug": "transformational-healing-civilian-survivors",
+      "status": "past",
+      "category": "Civilian Retreat",
+      "date": "2024-06-01",
+      "venue_name": "Colorado Springs, CO",
+      "image": "https://images.unsplash.com/photo-1506260408121-e353d10b87c7?w=1200&q=80",
+      "description_intro": "A weekend gathering for civilian survivors of conflict — focused on embodied healing, shared community, and the quiet work of reconnection.",
+      "rsvp_url": "contact.html",
+      "rsvp_label": "Learn more"
+    },
+    {
+      "title": "Healing the Heart Center — Long Beach",
+      "slug": "healing-heart-center-long-beach",
+      "status": "past",
+      "category": "Veteran Day Event",
+      "date": "2019-11-16",
+      "venue_name": "Long Beach, CA",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&q=80",
+      "description_intro": "A free one-day event for veterans on the effects of war on heart health — and paths toward healing through movement, nutrition, and mindfulness.",
+      "rsvp_url": "contact.html",
+      "rsvp_label": "Learn more"
+    }
+  ]
+}

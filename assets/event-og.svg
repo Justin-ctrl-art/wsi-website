@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Whiskey Makes the Story Easier — Annual Spring Benefit, May 7, 2026, Angel's Share Whiskey Lounge, Long Beach, CA">
+  <defs>
+    <linearGradient id="bgE" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f4736"/>
+      <stop offset="55%" stop-color="#1a3d2e"/>
+      <stop offset="100%" stop-color="#0f2820"/>
+    </linearGradient>
+    <radialGradient id="amber" cx="0.78" cy="0.5" r="0.45">
+      <stop offset="0%" stop-color="#c9a961" stop-opacity="0.42"/>
+      <stop offset="55%" stop-color="#c9a961" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#c9a961" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c9a961" stop-opacity="0.25"/>
+      <stop offset="55%" stop-color="#c9a961" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8f6f38" stop-opacity="0.75"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="630" fill="url(#bgE)"/>
+  <rect width="1200" height="630" fill="url(#amber)"/>
+
+  <!-- Glass silhouette on the right -->
+  <g transform="translate(900 155)" opacity="0.95">
+    <!-- tumbler outline -->
+    <path d="M 0 0 L 160 0 L 150 300 Q 150 320 128 322 L 32 322 Q 10 320 10 300 Z"
+          fill="none" stroke="#c9a961" stroke-width="2" stroke-linejoin="round" opacity="0.75"/>
+    <!-- whiskey fill -->
+    <path d="M 14 120 L 146 120 L 142 295 Q 142 312 125 314 L 35 314 Q 18 312 18 295 Z"
+          fill="url(#glass)"/>
+    <!-- meniscus highlight -->
+    <ellipse cx="80" cy="120" rx="66" ry="8" fill="#c9a961" opacity="0.55"/>
+    <!-- ice cube -->
+    <path d="M 54 150 L 96 140 L 110 170 L 70 182 Z" fill="#faf7f2" opacity="0.14"/>
+    <!-- rim highlight -->
+    <ellipse cx="80" cy="2" rx="80" ry="5" fill="none" stroke="#faf7f2" stroke-width="1" opacity="0.35"/>
+  </g>
+
+  <!-- corner brackets -->
+  <g stroke="#c9a961" stroke-width="1.2" fill="none" opacity="0.5">
+    <path d="M 62 102 V 62 H 112"/>
+    <path d="M 1138 528 V 568 H 1088"/>
+  </g>
+
+  <!-- Left content block -->
+  <g transform="translate(80 120)">
+    <!-- eyebrow -->
+    <text x="0" y="0"
+          font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+          font-size="15" font-weight="600"
+          fill="#d88863" letter-spacing="6">
+      ANNUAL SPRING BENEFIT
+    </text>
+    <!-- gold rule -->
+    <line x1="0" y1="22" x2="60" y2="22" stroke="#c9a961" stroke-width="2" opacity="0.9"/>
+
+    <!-- Big headline -->
+    <text x="0" y="110"
+          font-family="'Playfair Display', 'Times New Roman', Georgia, serif"
+          font-size="78" font-weight="600"
+          fill="#faf7f2" letter-spacing="-1.5">
+      Whiskey Makes
+    </text>
+    <text x="0" y="200"
+          font-family="'Playfair Display', 'Times New Roman', Georgia, serif"
+          font-size="76" font-weight="400" font-style="italic"
+          fill="#c9a961" letter-spacing="-1">
+      the Story Easier.
+    </text>
+
+    <!-- divider -->
+    <line x1="0" y1="260" x2="160" y2="260" stroke="#c9a961" stroke-width="1" opacity="0.65"/>
+
+    <!-- Date big -->
+    <text x="0" y="336"
+          font-family="'Playfair Display', 'Times New Roman', Georgia, serif"
+          font-size="44" font-weight="400"
+          fill="#faf7f2">
+      May 7, 2026
+    </text>
+    <text x="0" y="378"
+          font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+          font-size="19" font-weight="500"
+          fill="#faf7f2" fill-opacity="0.8" letter-spacing="1">
+      5:30 – 7:30 PM · Thursday evening
+    </text>
+
+    <!-- Venue -->
+    <text x="0" y="434"
+          font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+          font-size="17" font-weight="600"
+          fill="#c9a961" letter-spacing="4">
+      ANGEL'S SHARE WHISKEY LOUNGE
+    </text>
+    <text x="0" y="458"
+          font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+          font-size="16" font-weight="400"
+          fill="#faf7f2" fill-opacity="0.7">
+      Long Beach, California
+    </text>
+  </g>
+
+  <!-- Bottom tagline -->
+  <line x1="80" y1="562" x2="260" y2="562" stroke="#c9a961" stroke-width="1" opacity="0.4"/>
+  <text x="80" y="592"
+        font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+        font-size="13" font-weight="600"
+        fill="#faf7f2" fill-opacity="0.6" letter-spacing="5">
+    WAR SURVIVORS INSTITUTE
+  </text>
+
+  <!-- Subtle floating dots -->
+  <circle cx="980" cy="82" r="2.5" fill="#c9a961" opacity="0.5"/>
+  <circle cx="1060" cy="140" r="1.6" fill="#c9a961" opacity="0.4"/>
+  <circle cx="910" cy="540" r="2" fill="#c9a961" opacity="0.35"/>
+</svg>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events — War Survivors Institute</title>
+  <meta name="description" content="Gatherings of service, healing, and remembrance. Upcoming benefits, clinician trainings, and healing retreats from the War Survivors Institute.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Events — War Survivors Institute">
+  <meta property="og:description" content="Upcoming benefits, clinician trainings, and healing retreats from the War Survivors Institute.">
+  <meta property="og:image" content="assets/event-og.svg">
+  <meta property="og:url" content="https://war-survivors-institute.vercel.app/events">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#1a3d2e">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%231a3d2e' d='M16 28c0-6 3-10 8-12-5-1-8-4-10-9-2 5-5 8-10 9 5 2 8 6 8 12z'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{colors:{forest:'#1a3d2e',sage:'#5a7d68',gold:'#c9a961',cream:'#faf7f2',charcoal:'#2d2d2d',terracotta:'#c96442',stone:'#e8e2d5'},fontFamily:{serif:['"Playfair Display"','serif'],sans:['Inter','sans-serif']}}}}</script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-cream text-charcoal font-sans antialiased overflow-x-hidden">
+
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-forest focus:text-cream focus:px-4 focus:py-2">Skip to content</a>
+
+  <!-- Fixed top stack (announcement + header) -->
+  <div class="fixed top-0 left-0 right-0 z-50">
+    <div id="announcement" class="bg-forest text-cream text-center text-xs md:text-sm tracking-wide">
+      <div class="max-w-7xl mx-auto px-6 md:px-12 py-2.5 flex items-center justify-center gap-3">
+        <span class="w-1.5 h-1.5 rounded-full bg-gold announce-dot"></span>
+        <span class="text-cream/90 hidden sm:inline">Save the date — May 7, 2026 · Whiskey Makes the Story Easier.</span>
+        <span class="text-cream/90 sm:hidden">May 7 · Benefit Dinner</span>
+        <a href="#whiskey" class="text-gold hover:text-cream transition border-b border-gold/50 hover:border-cream pb-0.5 font-medium">Details →</a>
+      </div>
+    </div>
+    <header class="bg-cream/90 backdrop-blur-md border-b border-stone transition-shadow">
+      <nav class="max-w-7xl mx-auto px-6 md:px-12 py-5 flex items-center justify-between">
+        <a href="index.html" class="flex items-center gap-3 group" aria-label="War Survivors Institute home">
+          <svg class="w-7 h-7 text-forest transition-transform group-hover:rotate-3" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M16 28c0-6 3-10 8-12-5-1-8-4-10-9-2 5-5 8-10 9 5 2 8 6 8 12z"/>
+            <path d="M16 28V7"/>
+          </svg>
+          <span class="font-serif text-xl font-semibold text-forest tracking-tight">War Survivors Institute</span>
+        </a>
+        <ul class="hidden lg:flex items-center gap-8 text-sm font-medium text-charcoal">
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="programs.html" class="nav-link">Programs</a></li>
+          <li><a href="events.html" class="nav-link text-forest" aria-current="page">Events</a></li>
+          <li><a href="stories.html" class="nav-link">Stories</a></li>
+          <li><a href="get-involved.html" class="nav-link">Get Involved</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="flex items-center gap-4">
+          <a href="https://givebutter.com/investinWSI" target="_blank" rel="noopener" class="hidden md:inline-block px-6 py-2.5 bg-forest text-cream text-sm font-medium tracking-wide hover:bg-sage transition">Donate</a>
+          <button id="menuToggle" class="lg:hidden text-forest w-10 h-10 flex items-center justify-center" aria-label="Toggle menu" aria-expanded="false">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+      </nav>
+      <div id="mobileMenu" class="hidden lg:hidden bg-cream border-t border-stone">
+        <ul class="px-6 py-6 space-y-4 text-base font-medium text-charcoal">
+          <li><a href="about.html" class="block py-1 hover:text-forest">About</a></li>
+          <li><a href="programs.html" class="block py-1 hover:text-forest">Programs</a></li>
+          <li><a href="events.html" class="block py-1 hover:text-forest">Events</a></li>
+          <li><a href="stories.html" class="block py-1 hover:text-forest">Stories</a></li>
+          <li><a href="get-involved.html" class="block py-1 hover:text-forest">Get Involved</a></li>
+          <li><a href="contact.html" class="block py-1 hover:text-forest">Contact</a></li>
+          <li class="pt-2"><a href="https://givebutter.com/investinWSI" target="_blank" rel="noopener" class="inline-block px-6 py-2.5 bg-forest text-cream text-sm tracking-wide">Donate</a></li>
+        </ul>
+      </div>
+    </header>
+  </div>
+
+  <main id="main">
+
+    <!-- ============================ PAGE HERO ============================ -->
+    <section class="relative pt-36 md:pt-48 pb-20 md:pb-28 bg-cream overflow-hidden">
+      <div class="absolute inset-0 opacity-[0.04] pointer-events-none" aria-hidden="true" style="background-image: radial-gradient(circle at 85% 15%, rgba(201,169,97,1), transparent 50%);"></div>
+      <div class="relative max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-12 gap-10 items-end">
+        <div class="md:col-span-8 reveal-up">
+          <p class="eyebrow text-sage mb-6"><span class="rule"></span>Events</p>
+          <h1 class="hero-headline text-forest mb-6" style="font-size: clamp(2.25rem, 5.5vw, 4.75rem);">
+            Gatherings of service,<br>
+            <span class="italic font-normal text-gold">healing, and remembrance.</span>
+          </h1>
+          <p class="text-lg md:text-xl text-charcoal/80 max-w-2xl leading-relaxed font-light">
+            Benefit dinners, healing retreats, and clinician gatherings that extend our work beyond the clinic — into community, conversation, and shared table.
+          </p>
+        </div>
+        <div class="md:col-span-4 reveal-up delay-1">
+          <div class="border-l-2 border-gold pl-6">
+            <p class="eyebrow text-terracotta mb-2">Next</p>
+            <p class="font-serif text-2xl text-forest leading-tight">Whiskey Makes<br><span class="italic text-gold">the Story Easier</span></p>
+            <p class="text-sm text-charcoal/70 mt-3">May 7, 2026 · Long Beach, CA</p>
+            <a href="#whiskey" class="link-underline mt-4 text-sm">Scroll to details ↓</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ UPCOMING: WHISKEY ============================ -->
+    <section id="whiskey" class="py-20 md:py-28 bg-stone/30 border-y border-stone relative">
+      <div class="max-w-7xl mx-auto px-6 md:px-12">
+
+        <div class="flex items-baseline justify-between mb-10 md:mb-14 reveal-up">
+          <div>
+            <p class="eyebrow text-terracotta mb-3"><span class="rule"></span>Upcoming</p>
+            <h2 class="section-heading">One event on the calendar.</h2>
+          </div>
+        </div>
+
+        <!-- Rendered from data/events.json by js/content-loader.js -->
+        <div id="upcoming-events"></div>
+      </div>
+    </section>
+
+    <!-- ============================ CALENDAR SUBSCRIBE ============================ -->
+    <section class="py-16 md:py-20 bg-cream">
+      <div class="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-12 gap-10 items-center">
+        <div class="md:col-span-5 reveal-up">
+          <p class="eyebrow text-sage mb-4"><span class="rule"></span>Never miss an event</p>
+          <h2 class="font-serif text-2xl md:text-3xl text-forest leading-snug">Subscribe to the full WSI calendar.</h2>
+        </div>
+        <div class="md:col-span-7 reveal-up delay-1">
+          <div class="flex flex-wrap gap-2">
+            <a href="https://www.google.com/calendar/render?cid=webcal%3A%2F%2Fwarsurvivors.org%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 py-2.5 text-sm text-forest border border-stone hover:border-gold bg-cream transition">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="16" rx="1"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>
+              Google
+            </a>
+            <a href="webcal://warsurvivors.org/?post_type=tribe_events&amp;ical=1&amp;eventDisplay=list" class="inline-flex items-center gap-2 px-4 py-2.5 text-sm text-forest border border-stone hover:border-gold bg-cream transition">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="16" rx="1"/><path d="M3 10h18"/></svg>
+              iCal
+            </a>
+            <a href="https://outlook.office.com/owa?path=/calendar/action/compose&amp;rru=addsubscription&amp;url=webcal%3A%2F%2Fwarsurvivors.org%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&amp;name=War+Survivors+Institute+Events" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 py-2.5 text-sm text-forest border border-stone hover:border-gold bg-cream transition">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="16" rx="1"/><path d="M8 10h8M8 14h5"/></svg>
+              Outlook 365
+            </a>
+            <a href="https://outlook.live.com/owa?path=/calendar/action/compose&amp;rru=addsubscription&amp;url=webcal%3A%2F%2Fwarsurvivors.org%2F%3Fpost_type%3Dtribe_events%26ical%3D1%26eventDisplay%3Dlist&amp;name=War+Survivors+Institute+Events" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 py-2.5 text-sm text-forest border border-stone hover:border-gold bg-cream transition">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="16" rx="1"/><path d="M3 10h18"/></svg>
+              Outlook Live
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ PAST EVENTS ============================ -->
+    <section class="py-24 md:py-32 bg-stone/30 border-y border-stone">
+      <div class="max-w-7xl mx-auto px-6 md:px-12">
+        <div class="max-w-3xl mb-14 md:mb-20 reveal-up">
+          <p class="eyebrow text-sage mb-5"><span class="rule"></span>Past Events</p>
+          <h2 class="section-heading">A partial record of our gatherings.</h2>
+          <p class="mt-6 text-charcoal/80 text-lg">Each event is an hour or an afternoon in a larger project — the work of making survivors feel less alone.</p>
+        </div>
+
+        <!-- Rendered from data/events.json by js/content-loader.js -->
+        <div id="past-events" class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10"></div>
+
+        <p class="mt-12 text-sm text-charcoal/60 max-w-2xl reveal-up">
+          Full event archive available on our legacy site.
+          <a href="https://warsurvivors.org/events/list/?eventDisplay=past" target="_blank" rel="noopener" class="link-underline ml-2 text-sm">Browse past events archive →</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================ HOST / PARTNER ============================ -->
+    <section class="py-24 md:py-32 bg-forest text-cream relative overflow-hidden">
+      <div class="absolute inset-0 opacity-[0.04] pointer-events-none" aria-hidden="true" style="background-image: radial-gradient(circle at 20% 30%, rgba(201,169,97,0.6), transparent 40%), radial-gradient(circle at 80% 70%, rgba(201,169,97,0.4), transparent 40%);"></div>
+      <div class="relative max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-12 gap-10 items-center">
+        <div class="md:col-span-8 reveal-up">
+          <p class="eyebrow text-gold mb-6"><span class="rule"></span>Co-host with us</p>
+          <h2 class="section-heading text-cream">Bring WSI to your community.</h2>
+          <p class="mt-6 text-lg text-cream/85 max-w-2xl leading-relaxed">
+            We partner with venues, corporations, universities, and clinical teams to bring benefit dinners, educational evenings, and clinician trainings to new communities. If you'd like to co-host or sponsor a gathering, we'd love to hear from you.
+          </p>
+        </div>
+        <div class="md:col-span-4 flex flex-col gap-4 reveal-up delay-1">
+          <a href="contact.html" class="btn-gold btn-gold--shine justify-center">Start a Conversation</a>
+          <a href="https://warsurvivors.org/for-corporate-sponsors/" target="_blank" rel="noopener" class="btn-secondary justify-center">Corporate Sponsorship</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="bg-forest text-cream">
+    <div class="max-w-7xl mx-auto px-6 md:px-12 py-20 grid grid-cols-1 md:grid-cols-3 gap-14">
+      <div>
+        <div class="flex items-center gap-3 mb-5">
+          <svg class="w-7 h-7 text-gold" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M16 28c0-6 3-10 8-12-5-1-8-4-10-9-2 5-5 8-10 9 5 2 8 6 8 12z"/>
+            <path d="M16 28V7"/>
+          </svg>
+          <span class="font-serif text-lg font-semibold">War Survivors Institute</span>
+        </div>
+        <p class="text-sm leading-relaxed text-cream/75 max-w-xs">Healing war survivors and transforming our world through evidence-based care, community, and education.</p>
+        <p class="mt-6 text-xs tracking-wider uppercase text-gold">Candid Gold Seal of Transparency 2024</p>
+      </div>
+      <div>
+        <h3 class="eyebrow text-gold mb-5">Explore</h3>
+        <ul class="space-y-3 text-sm text-cream/85">
+          <li><a href="about.html" class="hover:text-gold transition">About</a></li>
+          <li><a href="programs.html" class="hover:text-gold transition">Programs</a></li>
+          <li><a href="events.html" class="hover:text-gold transition">Events</a></li>
+          <li><a href="stories.html" class="hover:text-gold transition">Stories</a></li>
+          <li><a href="get-involved.html" class="hover:text-gold transition">Get Involved</a></li>
+          <li><a href="contact.html" class="hover:text-gold transition">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="eyebrow text-gold mb-5">Stay Connected</h3>
+        <p class="text-sm text-cream/80 mb-4">Quarterly dispatches on healing, research, and survivor stories.</p>
+        <form class="flex flex-col sm:flex-row gap-2" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Thank you';">
+          <label class="sr-only" for="newsletter">Email address</label>
+          <input id="newsletter" type="email" required placeholder="your@email.com" class="flex-1 px-4 py-3 bg-forest border border-cream/25 text-cream placeholder-cream/50 text-sm focus:outline-none focus:border-gold">
+          <button type="submit" class="px-5 py-3 bg-gold text-forest text-sm font-medium tracking-wide hover:bg-cream transition">Subscribe</button>
+        </form>
+        <p class="mt-6 text-sm text-cream/75">info@warsurvivors.org<br>+1 (505) 555-0142</p>
+      </div>
+    </div>
+    <div class="border-t border-cream/15">
+      <div class="max-w-7xl mx-auto px-6 md:px-12 py-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-xs text-cream/60">
+        <p>&copy; 2026 War Survivors Institute. A registered 501(c)(3) nonprofit organization.</p>
+        <div class="flex gap-6"><a href="#" class="hover:text-gold">Privacy</a><a href="#" class="hover:text-gold">Accessibility</a><a href="#" class="hover:text-gold">Financials</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/content-loader.js"></script>
+</body>
+</html>

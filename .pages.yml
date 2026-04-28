@@ -1,0 +1,164 @@
+media: assets/uploads
+content:
+
+  # ───────────── EVENTS COLLECTION ─────────────
+  - name: events
+    label: Events
+    type: file
+    path: data/events.json
+    fields:
+      - name: events
+        label: Events
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Event Title, type: string, required: true }
+          - { name: title_italic_part, label: "Italic accent (last words of the title that should appear italic gold; e.g. 'the Story Easier.')", type: string }
+          - { name: slug, label: URL Slug (lowercase, no spaces), type: string, required: true }
+          - name: status
+            label: Status
+            type: select
+            options:
+              values: [upcoming, past]
+              default: upcoming
+            required: true
+          - { name: category, label: Category, type: string }
+          - { name: date, label: Date, type: date, required: true }
+          - { name: time_start, label: "Start time (e.g. 5:30 PM)", type: string }
+          - { name: time_end, label: "End time (e.g. 7:30 PM)", type: string }
+          - { name: timezone, label: "Timezone (e.g. PT, ET)", type: string }
+          - { name: venue_name, label: Venue Name, type: string }
+          - { name: venue_address_line1, label: Venue Address Line 1, type: string }
+          - { name: venue_city, label: City, type: string }
+          - { name: venue_state, label: State, type: string }
+          - { name: venue_zip, label: ZIP, type: string }
+          - { name: venue_phone, label: "Venue phone (e.g. (562) 293-3106)", type: string }
+          - { name: venue_url, label: Venue Website URL, type: string }
+          - name: image
+            label: Hero Image
+            type: image
+            options:
+              path: assets/uploads/events
+          - { name: description_intro, label: Opening paragraph, type: text }
+          - { name: description_body, label: Second paragraph (optional), type: text }
+          - { name: rsvp_url, label: "RSVP / Detail page URL", type: string }
+          - { name: rsvp_label, label: "Button label (default: Event Details)", type: string }
+          - { name: cost, label: "Cost (e.g. By contribution)", type: string }
+          - { name: google_calendar_url, label: "Google Calendar add-event URL (optional)", type: string }
+          - { name: ical_url, label: "iCal/.ics URL (optional)", type: string }
+          - { name: outlook365_url, label: "Outlook 365 URL (optional)", type: string }
+          - { name: outlook_live_url, label: "Outlook Live URL (optional)", type: string }
+
+  # ───────────── STORIES COLLECTION ─────────────
+  - name: stories
+    label: Stories
+    type: file
+    path: data/stories.json
+    fields:
+      - name: stories
+        label: Stories
+        type: object
+        list: true
+        fields:
+          - { name: slug, label: Slug, type: string, required: true }
+          - { name: category, label: "Category line (e.g. Veteran · Combat Trauma)", type: string }
+          - { name: headline, label: Headline / Quote, type: string, required: true }
+          - { name: excerpt, label: 1-2 sentence excerpt, type: text }
+          - name: image
+            label: Photo
+            type: image
+            options:
+              path: assets/uploads/stories
+          - { name: author, label: "Author / Subject", type: string }
+          - { name: featured, label: "Show on homepage?", type: boolean }
+          - { name: url, label: "Link target (default: stories.html)", type: string }
+
+  # ───────────── TEAM ─────────────
+  - name: team
+    label: Team & Board
+    type: file
+    path: data/team.json
+    fields:
+      - name: team
+        label: Team Members
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Name, type: string, required: true }
+          - { name: role, label: Role / Title, type: string }
+          - { name: bio, label: Short bio, type: text }
+          - name: image
+            label: Headshot
+            type: image
+            options:
+              path: assets/uploads/team
+          - name: type
+            label: Type
+            type: select
+            options:
+              values: [founder, staff]
+              default: staff
+      - name: board
+        label: Board of Directors
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Name, type: string, required: true }
+          - { name: role, label: "Board role (e.g. Chair, Treasurer)", type: string }
+          - { name: affiliation, label: "Affiliation (e.g. Professor of Global Health, Emory)", type: string }
+
+  # ───────────── SITE-WIDE COPY ─────────────
+  - name: site
+    label: Site Settings (banner, hero, mission, contact)
+    type: file
+    path: data/site.json
+    fields:
+      - name: announcement
+        label: Top Announcement Ribbon
+        type: object
+        fields:
+          - { name: enabled, label: "Show ribbon?", type: boolean }
+          - { name: text_long, label: "Message (desktop)", type: string }
+          - { name: text_short, label: "Message (mobile, shorter)", type: string }
+          - { name: link_label, label: Link label, type: string }
+          - { name: link_url, label: Link URL, type: string }
+      - name: hero
+        label: Homepage Hero
+        type: object
+        fields:
+          - { name: eyebrow, label: Small eyebrow text, type: string }
+          - { name: headline_line1, label: "Headline line 1", type: string }
+          - { name: headline_line2_italic, label: "Headline line 2 (italic, gold)", type: string }
+          - { name: subhead, label: Subheading paragraph, type: text }
+          - { name: primary_cta_label, label: Primary button label, type: string }
+          - { name: primary_cta_url, label: Primary button URL, type: string }
+          - { name: secondary_cta_label, label: Secondary button label, type: string }
+          - { name: secondary_cta_url, label: Secondary button URL, type: string }
+      - name: mission
+        label: Mission Statement Section
+        type: object
+        fields:
+          - { name: eyebrow, label: Eyebrow, type: string }
+          - { name: statement, label: Big statement, type: text }
+          - { name: supporting, label: Supporting paragraph, type: text }
+      - name: stats
+        label: Impact Stats
+        type: object
+        list: true
+        fields:
+          - { name: number, label: "Big number (e.g. 2,400+)", type: string }
+          - { name: label, label: "Label (e.g. Survivors served)", type: string }
+          - { name: description, label: One-line description, type: text }
+      - { name: donate_url, label: "Donate URL (GiveButter)", type: string }
+      - name: contact
+        label: Contact Information
+        type: object
+        fields:
+          - { name: email_general, label: General Email, type: string }
+          - { name: email_programs, label: Programs Email, type: string }
+          - { name: phone, label: Phone, type: string }
+          - { name: mailing_address_line1, label: Mailing Address Line 1, type: string }
+          - { name: mailing_address_line2, label: Mailing Address Line 2, type: string }
+          - { name: mailing_city, label: City, type: string }
+          - { name: mailing_state, label: State, type: string }
+          - { name: mailing_zip, label: ZIP, type: string }
